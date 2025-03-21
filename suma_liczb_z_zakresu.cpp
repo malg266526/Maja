@@ -7,7 +7,6 @@ int main() {
     // deklarujemy zmienną liczbową, która będzie trzymać sumę do policzenia
     int suma = 0;
 
-
     // gdy idziemy od jednej liczby do drugiej, to użyjemy pętli for
     // start: 500
     // stop: 2000
