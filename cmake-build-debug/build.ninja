@@ -91,6 +91,12 @@ build CMakeFiles/Maja.dir/policz_samogloski.cpp.obj: CXX_COMPILER__Maja_unscanne
   OBJECT_DIR = CMakeFiles\Maja.dir
   OBJECT_FILE_DIR = CMakeFiles\Maja.dir
 
+build CMakeFiles/Maja.dir/suma_liczb_z_zakresu.cpp.obj: CXX_COMPILER__Maja_unscanned_Debug C$:/Users/Bango/CLionProjects/Maja/suma_liczb_z_zakresu.cpp || cmake_object_order_depends_target_Maja
+  DEP_FILE = CMakeFiles\Maja.dir\suma_liczb_z_zakresu.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Maja.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maja.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Maja
@@ -99,7 +105,7 @@ build CMakeFiles/Maja.dir/policz_samogloski.cpp.obj: CXX_COMPILER__Maja_unscanne
 #############################################
 # Link the executable Maja.exe
 
-build Maja.exe: CXX_EXECUTABLE_LINKER__Maja_Debug CMakeFiles/Maja.dir/main.cpp.obj CMakeFiles/Maja.dir/duze_litery.cpp.obj CMakeFiles/Maja.dir/trzycyfrowe-podzielne.cpp.obj CMakeFiles/Maja.dir/czyTrzycyfrowa.cpp.obj CMakeFiles/Maja.dir/wartoscBezwzgledna.cpp.obj CMakeFiles/Maja.dir/co-piaty-znak.cpp.obj CMakeFiles/Maja.dir/policz_samogloski.cpp.obj
+build Maja.exe: CXX_EXECUTABLE_LINKER__Maja_Debug CMakeFiles/Maja.dir/main.cpp.obj CMakeFiles/Maja.dir/duze_litery.cpp.obj CMakeFiles/Maja.dir/trzycyfrowe-podzielne.cpp.obj CMakeFiles/Maja.dir/czyTrzycyfrowa.cpp.obj CMakeFiles/Maja.dir/wartoscBezwzgledna.cpp.obj CMakeFiles/Maja.dir/co-piaty-znak.cpp.obj CMakeFiles/Maja.dir/policz_samogloski.cpp.obj CMakeFiles/Maja.dir/suma_liczb_z_zakresu.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Maja.dir
