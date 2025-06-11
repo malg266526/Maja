@@ -15,18 +15,16 @@ int main()
     
     int r;
     
-    // cin >> r;
+    cin >> r;
     
     // przypisanie wartosci
-    
-    int a = 1005;
+    int a = r;
     
     // romb to instrukcja warunkowa 
     // sprawdzamy, czy podany warunek jest spelniony
     
     // jeśli T - liczba nieparzysta, idziemy dalej
     // jeśli N - parzysta - pomniejszamy "a" o 1
-    
     
     // taki byłby dosłowny zapis schematu:  
     /*
